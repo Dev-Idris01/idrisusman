@@ -1,0 +1,844 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration:none;
+    font-family: 'montserrat';
+}
+
+* p{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.bx{
+    font-size: 30px;
+    color: orangered;
+    margin: 0px 5px;
+}
+
+/* NAV SECTION */
+
+header{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+li a{
+    margin-right: 20px;
+    font-family: 'jost';
+    color: white;
+    transition: .5s ease;
+}
+
+li a:hover{
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+.logo{
+    color: whitesmoke;
+    font-size: 20px;
+    transition: .5s ease;
+}
+
+.logo:hover{
+    color: grey;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+    transform: translate(4px);
+}
+
+
+
+/* HERO SECTION */
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/Hero\ 8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero p{
+    color: white;
+    font-family: 'jost';
+}
+
+#hero h1{
+    color: white;
+    font-family: 'jost';
+    font-size: 60px;
+}
+
+#hero span{
+    color: whitesmoke;
+    font-family: jost;
+}
+
+.hero-btn{
+    padding: 10px 20px;
+    background-color: orangered;
+    border-radius: 10px 0px;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-family: 'jost';
+    box-shadow: 0px 2px 4px grey;
+    transition: .5s ease;
+}
+
+.hero-btn:hover{
+    transform: translate(4px);
+    background-color: transparent;
+    color: grey;
+}
+
+
+
+
+/* ABOUT SECTION */
+
+#about{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile{
+    width: 200px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 20px 0px;
+    box-shadow: 0px 2px 4px grey;
+    transition: .5s ease;
+}
+
+.description{
+    width: 50%;
+}
+
+.profile:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#about h2{
+    margin: 15px 0px 0px;
+    color: orangered;
+}
+
+#about h4{
+    color: #1e1e1e;
+    margin-bottom: 15px;
+}
+
+#about p{
+    color: #1e1e1e;
+}
+
+.about-btn{
+    padding: 10px 20px;
+    background-color: orangered;
+    border-radius: 10px 0px;
+    margin: 30px 0px;
+    color: whitesmoke;
+    font-family: 'jost';
+    box-shadow: 0px 2px 4px grey;
+    transition: .5s ease;
+}
+
+.about-btn:hover{
+    transform: translate(4px);
+    background-color: transparent;
+    color: grey;
+}
+
+
+
+/* SERVICES SECTION */
+
+#services{
+    width: 100%;
+    padding: 50px 0px 10px;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.box{
+   flex: 1;
+   margin: 20px;
+   padding: 20px;
+   background-color: whitesmoke;
+   border-radius: 10px 0px;
+   box-shadow: 0px 2px 4px grey;
+   transition: .5s ease;
+}
+
+.box:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+#services h2{
+    color: orangered;
+}
+
+
+.box h4{
+    margin-bottom: 10px;
+}
+
+.box p{
+    color: #1e1e1e;
+}
+
+.conn-container{
+    width: 100%;
+}
+
+.con{
+    width: 80%;
+    height: 100px;
+    margin: 25px auto;
+    padding: 10px 20px;
+    border-radius: 10px 0px;
+    
+}
+
+.con h4{
+    margin-bottom: 30px;
+}
+
+.services-btn{
+    padding: 10px 20px;
+    border-radius: 10px 0px;
+    background-color: orangered;
+    color: whitesmoke;
+    box-shadow: 0px 2px 4px grey;
+    transition: .5s ease;
+}
+
+.services-btn:hover{
+    transform: translate(4px);
+    background-color: transparent;
+    color: grey;
+    
+}
+
+
+
+/* WORKFLOW SECTION */
+
+#workflow{
+    width: 100%;
+}
+
+.workflow-box{
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 25px auto;
+    padding: 30px;
+
+}
+
+#workflow h2{
+    color: orangered;
+    margin: 10px 0px;
+}
+
+#workflow h4,
+#workflow hr{
+    margin: 15px 0px;
+}
+
+
+
+/* PORTFOLIO SECTION */
+
+#portfolio{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 50px 0px 50px;
+    text-align: center;
+
+}
+
+#portfolio h2{
+    text-align: center;
+    color: orangered;
+}
+
+.portfolio-wrapper{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.portfolio-cont{
+   flex: 1;
+   margin: 20px;
+   padding: 5px;
+   border-radius: 10px 0px;
+   box-shadow: 0px 2px 4px grey;
+   transition: .5s ease;
+
+}
+
+.portfolio-img{
+    display: block;
+    width: 100%;
+    border-radius: 10px 0px;
+    margin-bottom: 10px;
+}
+
+.portfolio-cont a{
+    color: whitesmoke;
+    padding: 5px 20px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    border-radius: 10px 0px;
+    box-shadow: 0px 2px 4px grey;
+    transition: .5s ease;
+}
+
+.portfolio-cont:hover{
+    transform: scale(1.03);
+    background-color: transparent;
+    color: grey;
+}
+
+.portfolio-cont a:hover{
+    transform: translate(4px);
+    background-color: transparent;
+    color: grey;
+}
+
+
+/* JOURNEY SECTION */
+
+#journey{
+    width: 100%;
+}
+
+.journey-cont{
+    width: 80%;
+    margin: 25px auto;
+    background-color: whitesmoke;
+    padding: 25px;
+}
+
+#journey > div > h2{
+    margin: 15px 0px;
+    color: orangered;
+}
+
+#journey > div > div > div > h4{
+    margin: 15px 0px;
+}
+
+#journey > div > div > div > p{
+    margin-bottom: 10px;
+}
+
+.socials-div-1 i{
+    width: 30px;
+    border-radius: 50%;
+    margin: 25px 2px;
+    transition: .5s ease;
+}
+
+.socials-div-1 i:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.socials-div-2{
+    background-color: whitesmoke;
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+/* TESTIMONIALS SECTION */
+
+#testimonials{
+    width: 100%;
+}
+
+.testimonial-cont h2{
+    color: orangered;
+}
+
+.testimonial-cont{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.testimonials-wrapper{
+    display: flex;
+    padding: 30px;
+}
+
+.testimonials-box{
+    flex: 1;
+    margin: 10px;
+    border-radius: 10px 0px;
+    padding: 20px;
+}
+
+#testimonials > div > h3{
+    margin: 20px 0px 5px;
+}
+
+.testimonials-box img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+/* SKILLS SECTION */
+
+#skills{
+    width: 100%;
+}
+
+.skills-container{
+    margin: 25px auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.skills-container h2{
+    color: orangered;
+}
+
+#skills hr{
+    width: 45px;
+    border: 2px solid orangered;
+}
+
+.tittle{
+    width: 90%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.prog-1{
+    width: 90%;
+    height: 5px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+
+.prog-a,
+.prog-b,
+.prog-c{
+    width: 90%;
+    height: 100%;
+    background-color: orangered;
+}
+
+.prog-c{
+    width: 70%;
+    height: 100%;
+    background-color: orangered;
+}
+
+.prog-d{
+    width: 50%;
+    height: 100%;
+    background-color: orangered;
+}
+
+.prog-e{
+    width: 20%;
+    height: 100%;
+    background-color: orangered;
+}
+
+
+/* CONTACT SECTION */
+
+#contact{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contact-container{
+    width: 80%;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+input{
+    width: 90%;
+    height: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+input:focus{
+    background-color: whitesmoke;
+}
+
+textarea{
+    width: 90%;
+}
+
+#contact .send{
+    padding: 10px 20px;
+    background-color: orangered;
+    border-radius: 10px 0px;
+    color: whitesmoke;
+    text-align: center;
+    border: none;
+}
+
+
+
+
+/* CONTACTS DETAILS */
+
+#contacts{
+    width: 100%;
+}
+
+.items-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.items{
+    margin: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.items h4{
+    color: orangered;
+}
+
+
+
+/* FOLLOW SECTION */
+
+#follow{
+    width: 100%;
+    
+}
+
+.follow-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    width: 80%;
+    height: 30px;
+}
+
+
+
+/* FOOTER SECTION */
+
+footer{
+    width: 100%;
+    background-color: orangered;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+/* MOBILE SCREEN DEVICES (319px - 480px */
+
+@media screen and (max-width: 480px) {
+
+    /* NAV SECTION */
+
+    .logo{
+        display: none;
+    }
+
+    li a{
+        font-size: 12px;
+    }
+
+    /* HERO SECTION AMENDMENTS */
+    
+    #hero h1{
+        font-size: 40px;
+    }
+    
+    #hero span{
+        font-size: 12px;
+    }
+    
+    .hero-btn{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    
+    /* ABOUT SECTION AMENDMENTS */
+
+    .profile{
+        width: 150px;
+        height: 200px;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .about-btn{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+   /* SERVICES SECTION */
+
+   .wrapper {
+		flex-direction: column;
+	}
+
+   .services-btn{
+        padding: 5px 10px;
+        font-size: 12px;
+   }
+
+
+
+    /* PORTFOLIO SECTION */
+
+   .portfolio-cont a{
+        font-size: 12px;
+   }
+
+    .portfolio-wrapper{
+        flex-direction: column;
+    }
+
+
+    /* TESTIMONIALS SECTION */
+
+    .testimonials-wrapper{
+        flex-direction: column;
+    }
+
+
+    /* CONTACTS SECTION */
+
+    .items-wrapper{
+        flex-direction: column;
+    }
+
+
+    /* GENERAL */
+
+    h2{
+        font-size: 18px;
+    }
+
+    h4{
+        font-size: 12px;
+    }
+
+    * p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    *label{
+        font-size: 10px;
+    }
+
+}
+
+
+
+/* IPADS SCREEN DEVICES (481px - 1200px */
+
+@media screen and (max-width: 1200px) {
+
+    /* NAV SECTION */
+
+    .logo{
+        display: none;
+        font-size: 16px;
+    }
+
+    li a{
+        font-size: 14px;
+    }
+
+    /* HERO SECTION AMENDMENTS */
+    
+    #hero h1{
+        font-size: 50px;
+    }
+    
+    #hero span{
+        font-size: 14px;
+    }
+    
+    .hero-btn{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    
+    /* ABOUT SECTION AMENDMENTS */
+
+    .profile{
+        width: 200px;
+        height: 250px;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .description p{
+        font-size: 15px;
+    }
+
+    .about-btn{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+   /* SERVICES SECTION */
+
+   .wrapper {
+		flex-direction: column;
+	}
+
+   .services-btn{
+        padding: 10px 20px;
+        font-size: 16px;
+   }
+
+
+
+    /* PORTFOLIO SECTION */
+
+   .portfolio-cont a{
+        font-size: 14px;
+   }
+
+    .portfolio-wrapper{
+        flex-direction: column;
+    }
+
+
+    /* TESTIMONIALS SECTION */
+
+    .testimonials-wrapper{
+        flex-direction: column;
+    }
+
+
+    /* CONTACTS SECTION */
+
+    .items-wrapper{
+        flex-direction: column;
+    }
+
+
+    /* GENERAL */
+
+    h2{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 14px;
+    }
+
+    * p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    *label{
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 1200px) {
+	
+    .portfolio-wrapper{
+        flex-direction: column;
+    }
+    
+    .testimonials-wrapper{
+        flex-direction: column;
+    }
+    
+    .wrapper{
+        flex-direction: column;
+    }
+    
+    .items-wrapper{
+        flex-direction: column;
+    }
+   
+} */
